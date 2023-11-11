@@ -1,0 +1,49 @@
+{
+  "name": "cpu-monitor-app",
+  "productName": "Usage Monitor By Jiege",
+  "version": "1.0.0",
+  "description": "Jiege's First Desktop App",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "build-installer": "electron-builder"
+  },
+  "build": {
+    "appId": "cpu-monitor",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "src/icon.ico",
+      "requestedExecutionLevel": "requireAdministrator"
+    },
+    "nsis": {
+      "installerIcon": "src/icon.ico",
+      "uninstallerIcon": "src/icon.ico",
+      "uninstallDisplayName": "CPU Monitor",
+      "license": "license.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "keywords": [],
+  "author": "jiege",
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "os-utils": "^0.0.14"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "electron": "27.0.4"
+  }
+}
