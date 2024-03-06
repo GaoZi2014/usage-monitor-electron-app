@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Usage Monitor App By JIEGE</h1>
 
-<h3 align="center">This Website Is Using</h3>
+<h3 align="center">This App Is Using</h3>
 <div align="center">
   <div style="display: flex;">
     <img style="width: 60px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
