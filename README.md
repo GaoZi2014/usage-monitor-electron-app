@@ -14,4 +14,4 @@
 </div>
 
 > ## Lastest Notice
-> [New] Hello everyone! However, I am still in college and need time to study. So from today on, I will no longer update this project.
+> <b>[New] Hello everyone! However, I am still in college and need time to study. So from today on, I will no longer update this project.</b>
